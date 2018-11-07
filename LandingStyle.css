@@ -1,7 +1,12 @@
-.jumbotron{
+/**{*/
+    /*border: solid 1px red;*/
+/*}*/
+
+*{
     background: url("images/nikita-kachanovsky-571468-unsplash.jpg")  top fixed no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    color: #fefefe
 }
 
 img{
@@ -9,4 +14,26 @@ img{
 }
 
 .row{
+
+}
+
+.column-left{
+    /*border-top: 2px solid #a1a2a3;*/
+    border-left: 2px solid #a1a2a3;
+
+}
+
+.column-right{
+    /*border-top: 2px solid #a1a2a3;*/
+    border-right: 2px solid #a1a2a3;
+
+}
+
+.about{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.about_me{
+
+
 }
