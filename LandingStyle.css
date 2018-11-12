@@ -19,25 +19,56 @@ img{
 .row{
 
 }
+.about{
+    padding: 7.5em;
+    color: #fefefe;
+    background-color: rgba(49, 45, 42, .8);
+}
 
-.column-left{
+
+/* ==============*/
+/* Orignally .column-left*/
+.column-right{
+    line-height: 1.6;
+    margin: 2em 0em;
     /*border-top: 2px solid #a1a2a3;*/
     border-left: 2px solid #a1a2a3;
-
+    text-align: left;
+}
+.column-left p{
 }
 
-.column-right{
+
+/* ========================*/
+/* Orignally .column-right*/
+.column-left{
+    line-height: 1.6;
+    margin: 2em 0em;
     /*border-top: 2px solid #a1a2a3;*/
     border-right: 2px solid #a1a2a3;
+    text-align: right;
+}
+.column-right p{
 
 }
 
-.about{
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
+/*=======================*/
 .about_me{
     /*border: solid 1px red;*/
-    color: #fefefe;
+    background-color: rgba(255, 255, 255, .8);
+    color: #000;
+    text-align: center;
+    padding: 1em;
 
+}
+
+.container-fluid.projects{
+    padding-top: 2em;
+    padding-left: 2em;
+    background-color: rgba(255, 255, 255, .8);
+    color: #000;
+}
+.projects-header{
+    background-color: rgba(255, 255, 255, .8);
+    color: #000;
 }
