@@ -62,6 +62,11 @@ img{
 
 }
 
+.projects{
+    background-color: rgba(255, 255, 255, .8);
+    padding: 2em 0em;
+}
+
 .container-fluid.projects{
     padding-top: 2em;
     padding-left: 2em;
@@ -80,6 +85,12 @@ svg{
     width: 10em;
     height: 10em;
     margin: 1em;
+}
+svg path{
+    fill: rgba(255, 255, 255, .8);
+}
+.icon svg{
+    padding: 0em 1em;
 }
 .skills{
     color: #fefefe;
