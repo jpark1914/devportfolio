@@ -76,3 +76,12 @@ img{
 .project-slide{
 
 }
+svg{
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+}
+.skills{
+    color: #fefefe;
+    background-color: rgba(49, 45, 42, .8);
+}
