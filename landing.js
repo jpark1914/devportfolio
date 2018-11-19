@@ -8,5 +8,5 @@ console.log("test");
 
 $('.row').on('mouseenter', function ()
 {
-$('.icon').addClass('hvr-pulse');
+$('.icon').addClass('hvr-hang');
 });
