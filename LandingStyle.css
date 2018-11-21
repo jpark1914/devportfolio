@@ -96,3 +96,20 @@ svg path{
     color: #fefefe;
     background-color: rgba(49, 45, 42, .8);
 }
+
+footer .container-fluid{
+    padding: 0.5em 1em 0em 1em;
+}
+.footer-left{
+    border-right: 1px solid rgba(255, 255, 255, .3);
+
+}
+.footer-right{
+    border-left: 1px solid rgba(255, 255, 255, .3);
+}
+
+.footer-right svg{
+    width: 5em;
+    height: 5em;
+    margin: 1em;
+}
